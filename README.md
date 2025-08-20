@@ -29,3 +29,9 @@ EEG : [EMOTIV MN8 earphone](https://www.emotiv.com/products/mn8)
 Pycharm (Python 3.9.6 version)
 
 run `pip install -r requirements.txt`
+
+## Usage
+1. Data Preparing
+
+2. 
+3. 
