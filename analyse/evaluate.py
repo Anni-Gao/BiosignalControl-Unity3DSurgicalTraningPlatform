@@ -187,9 +187,11 @@ if all_users_traj:
     results = []
     for cond in ['A', 'B']:
         df_cond = all_users_df[all_users_df['condition'] == cond].copy()
+        # If area (MSE) is outlier means the traj isn't finish or mistake by the participant (Should remove)
         df_cond = remove_outliers(df_cond, 'area_diff')
-        df_cond = remove_outliers(df_cond, 'pause_count')
-        df_cond = remove_outliers(df_cond, 'completion_time')
+        # But these outlier should keep for evaluate
+        # df_cond = remove_outliers(df_cond, 'pause_count')
+        # df_cond = remove_outliers(df_cond, 'completion_time')
 
         results.append({
             'condition': cond,
