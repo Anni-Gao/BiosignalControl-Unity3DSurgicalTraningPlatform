@@ -62,7 +62,8 @@ Pycharm (Python 3.9.6 version)
 ### Data Preparing
 1. Extract the compressed file into the folder **dataset**  
 2. Move them into the folder **analyse**, at the same level as the `.py` files
-(Only Condition A & Condition B dataset are used in this project)
+
+   (Only Condition A & Condition B dataset are used in this project)
 
 ### Run System
 1. Run `main.eeg.py` & `main.hrv.py` files to start range calibration and collect real-time data.  
