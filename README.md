@@ -3,6 +3,7 @@
 ## Introduction
 This project provides a bio-signal–driven control system integrated into a Unity3D-based surgical training platform. The system enables real-time analysis of user cognitive and physiological states, providing insights into performance, stress, and learning outcomes in surgical skill training.
 
+🎬 [Introduction Video](https://youtu.be/lneNHUn4LSM)
 ## Features
 
 ### Bio-signal Data Range Calibration & Real-time Collection
